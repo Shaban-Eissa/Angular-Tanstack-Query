@@ -1,59 +1,64 @@
-# AngularQuery
+# Angular Query Explorer
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
+A modern GitHub repository explorer built with Angular 19 and TanStack Query.
 
-## Development server
+## Features
 
-To start a local development server, run:
+- **Real-time Repository Search**: Search for GitHub users and explore their repositories
+- **Infinite Scrolling**: Load more repositories as you scroll
+- **Detailed Repository View**: View comprehensive repository details including commits
+- **Commit History**: Browse through commit history with detailed information
+- **Modern UI**: Beautiful, responsive UI with Tailwind CSS
+- **Optimized Performance**: Fast loading and smooth interactions with TanStack Query
 
-```bash
-ng serve
-```
+## Technologies Used
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Angular 19**: Latest version of the Angular framework
+- **TanStack Query**: For efficient data fetching, caching, and state management
+- **Tailwind CSS 4**: For modern, utility-first styling
+- **GitHub API**: For fetching repository and user data
+- **RxJS**: For reactive programming
+- **Angular Signals**: For reactive state management
 
-## Code scaffolding
+## Prerequisites
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- Node.js (v18 or later)
+- npm or yarn
 
-```bash
-ng generate component component-name
-```
+## Installation
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Shaban-Eissa/Angular-Tanstack-Query.git
+   cd Angular-Tanstack-Query
+   ```
 
-```bash
-ng generate --help
-```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Building
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-To build the project run:
+4. Open your browser and navigate to `http://localhost:4200`
 
-```bash
-ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## TanStack Query Integration
 
-## Running unit tests
+The project uses TanStack Query for data fetching and state management. This provides:
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+- Automatic caching of API responses
+- Background refetching
+- Pagination and infinite scrolling support
+- Loading and error states
 
-```bash
-ng test
-```
+## 🙏 Acknowledgements
 
-## Running end-to-end tests
+- [Angular Team](https://angular.dev) for the amazing framework
+- [TanStack Query](https://tanstack.com/query) for the data fetching library
+- [Tailwind CSS](https://tailwindcss.com) for the utility-first CSS framework
+- [GitHub API](https://docs.github.com/en/rest) for providing the data
 
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
