@@ -1,6 +1,11 @@
 # Angular Query Explorer
+A fast and responsive GitHub repository explorer powered by Angular 19, TanStack Query, and TailwindCSS, featuring search, infinite scroll, and real-time commit browsing.
 
-A modern GitHub repository explorer built with Angular 19 and TanStack Query.
+<img style="max-width: 100%; height: auto;" alt="repo-home-page" src="https://github.com/user-attachments/assets/c383aaf2-39bc-4216-96f6-51ae3d5e0e78" />
+<img style="max-width: 100%; height: auto;" alt="repo-home-page" src="https://github.com/user-attachments/assets/0cec11aa-a40a-4851-8dd4-a2f0edb1b981" />
+<img style="max-width: 100%; height: auto;" alt="repo-list" src="https://github.com/user-attachments/assets/9a52bd41-4570-45f2-93cc-9334a6b1c634" />
+<img style="max-width: 100%; height: auto;" alt="repo-commits" src="https://github.com/user-attachments/assets/0438d7e1-53f4-4949-a362-10c6510a849b" />
+
 
 ## Features
 
